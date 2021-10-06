@@ -1,0 +1,51 @@
+
+nav{
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+
+#navicon img{
+    width: auto;
+    height: 50px;
+}
+nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    width: 20%;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav li a:hover{
+    border: solid 4px rgb(115 96 170);
+    border-radius: 50px;
+    text-align: center;
+    padding : 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(115 96 170);
+}
+
+nav li a#now {
+    border: solid 4px rgb(115 96 170);
+    border-radius: 50px;
+    background : rgb(115 96 170);
+    padding : 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: white;
+}

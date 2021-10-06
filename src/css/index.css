@@ -1,0 +1,44 @@
+#topimage{
+    width: 100%;
+    height: auto;
+}
+h1{
+    color: #a347ff;
+    font-size: 60px;
+}
+#explanation p{
+    color: white;
+}
+#Introduction{
+    display: flex;
+    justify-content: center;
+
+}
+#yata{
+    display: flex;
+    background-color: #00aeff;
+}
+#tachibana{
+    display: flex;
+    padding: 3px;
+    background-color: #ffa4b1;
+}
+.profile{
+    width: 100%;
+}
+.profile h2{
+    color: white;
+    font-size: 30px;
+}
+.profile h3{
+    color: white;
+    font-size: 15px;
+}
+.profile p{
+    color: white;
+}
+.profile img{
+    position:relative;
+    width: 80px;
+    height: 80px;
+}

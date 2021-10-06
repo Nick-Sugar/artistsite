@@ -1,0 +1,22 @@
+#topimage{
+    width: 100%;
+    height: auto;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+    width: 32.8%;
+    border: solid 4px rgb(115 96 170);
+}
+a{
+    text-decoration: none;
+  }
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
